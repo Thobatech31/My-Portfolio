@@ -1,0 +1,100 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+.c-title{
+        color: var(--black) !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+}
+
+.c-tag{
+    color: var(--black) !important;
+}
+
+.c-details{
+        color: #FCA61F !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.my-c-img{
+
+    object-fit: cover !important;
+    border-radius: 5px !important;
+}
+.text-center{
+    text-align: center !important;
+}
+
+.m-t-10{
+    margin-top: -10px !important;
+}
+
+.m-t-15{
+    margin-top: -15px !important;
+}
+
+.m-t-20{
+    margin-top: -20px !important;
+}
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    .my-c-img{
+        width: 650px !important;
+        height: 370px !important;
+    }
+
+}
