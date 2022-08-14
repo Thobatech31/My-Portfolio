@@ -18,20 +18,16 @@ const Testimonial = () => {
           "to startups building digital solutions. Proficient in translating designs and\n" +
           "wireframes into higher quality code and writing application interface code via\n" +
           "Javascript, ReactJs workflows and also employed a variety of languages such as\n" +
-          "NodeJs, Javascript, PHP (FatFree), Html, Css and Bootstrap to write and create\n" +
-          "user-friendly web applications. Excels working in a team environment and ability\n" +
-          "to learn rapidly."
+          "NodeJs, Javascript, PHP (FatFree), Html, Css and Bootstrap."
     },
     {
       img: profilePic2,
       review:
-      "FullStack Developer offering 4+ years of experience providing technical support\n" +
+          "FullStack Developer offering 4+ years of experience providing technical support\n" +
           "to startups building digital solutions. Proficient in translating designs and\n" +
           "wireframes into higher quality code and writing application interface code via\n" +
           "Javascript, ReactJs workflows and also employed a variety of languages such as\n" +
-          "NodeJs, Javascript, PHP (FatFree), Html, Css and Bootstrap to write and create\n" +
-          "user-friendly web applications. Excels working in a team environment and ability\n" +
-          "to learn rapidly."
+          "NodeJs, Javascript, PHP (FatFree), Html, Css and Bootstrap."
     },
   ];
 
