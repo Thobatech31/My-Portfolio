@@ -26,9 +26,10 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          i offer a awesome services for my client's, be it mobile, tablet and web applications
-          <br />
-          ispum is simpley dummy text of printing
+            I offer a awesome services for my client's, Development of latest   <br />user-interface features using ReactJs and
+          built reusable components for   <br />use be it mobile, tablet and web applications
+
+
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
