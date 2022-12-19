@@ -43,15 +43,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://www.github.com/Thobatech31" target="_blank">
+          <a href="https://www.github.com/Thobatech31" target="_blank" rel="noreferrer">
             <img src={Github} alt="" />
           </a>
          
-          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank">
+          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank" rel="noreferrer">
             <img src={LinkedIn} alt="" />
             </a>
        
-          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank">
+          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank" rel="noreferrer">
             <img src={Instagram} alt="" />
           </a>
         </div>

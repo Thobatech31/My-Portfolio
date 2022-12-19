@@ -13,16 +13,16 @@ const Footer = () => {
         <span>owolabitoba31@gmail.com</span>
         <div className="f-icons">
 
-          <a href="https://www.github.com/Thobatech31" target="_blank">
+          <a href="https://www.github.com/Thobatech31" target="_blank" rel="noreferrer">
             <Gitub color="white" size={"3rem"} />
           </a>
 
-          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank">
+          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank" rel="noreferrer">
             <Linkld color="white" size={"3rem"} />
 
           </a>
 
-          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank">
+          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank" rel="noreferrer">
             <Facebook color="white" size={"3rem"} />
           </a>
         </div>
