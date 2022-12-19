@@ -33,11 +33,11 @@ const Contact = () => {
   return (
     <>
    
-    <div className="text-center">
+    <div className="text-center" style={{marginTop:"50px"}}>
         <span style={{ color: darkMode ? 'white' : '' }} className="c-title">Get in Touch</span>
-        <p className="c-details">I am available for freelance work. Connect with me via<br/> 
+      <p className="c-details mb-5">I am available for freelance work. Connect with me via</p>
           <span className="c-tag"> phone: +2348162977243, +2347060419595</span> or 
-          <span className="c-tag"> Email: owolabitoba31@gmail.com</span></p>
+          <span className="c-tag"> Email: owolabitoba31@gmail.com</span>
     </div>
     <div className="contact-form m-t-20" id="contact">
       {/* left side copy and paste from work section */}

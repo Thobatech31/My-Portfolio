@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/toba2.png";
+// import boy from "../../img/toba2.png";
+import boy from "../../img/thobatech_01.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -30,9 +31,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I'm</span>
-          <span>Owolabi Toba</span>
+          <span>Owolabi Toba (Thobatech)</span>
           <span>
-            Full Stack Developer with high level of experience in web designing
+            Full Stack Developer with high level of experience in web application designs
             and development, producting the Quality work
           </span>
 
@@ -42,15 +43,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="github.com/Thobatech31" target="_blank">
+          <a href="https://www.github.com/Thobatech31" target="_blank">
             <img src={Github} alt="" />
           </a>
          
-          <a href="linkedin.com/in/toba-owolabi-466316205" target="_blank">
+          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank">
             <img src={LinkedIn} alt="" />
             </a>
        
-          <a href="linkedin.com/in/toba-owolabi-466316205" target="_blank">
+          <a href="https://www.linkedin.com/in/toba-owolabi-466316205" target="_blank">
             <img src={Instagram} alt="" />
           </a>
         </div>

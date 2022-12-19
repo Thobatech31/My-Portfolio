@@ -6,8 +6,8 @@ import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 
-import profilePic1 from "../../img/tboy.png";
-import profilePic2 from "../../img/toba2.png";
+import profilePic1 from "../../img/thobatech_01.png";
+import profilePic2 from "../../img/thobatech_02.png";
 
 const Testimonial = () => {
   const clients = [

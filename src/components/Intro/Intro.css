@@ -1,6 +1,6 @@
 .Intro {
   display: flex;
-  height: 77vh;
+  height: 60vh;
   margin-top: 6rem;
 }
 
@@ -106,8 +106,9 @@ margin-left: 39px !important;
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;
+    margin-top: 5rem;
     gap: 7rem;
-    height: 64rem;
+    height: 60rem;
   }
 
   .i-right {

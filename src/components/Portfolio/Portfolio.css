@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
-
+  height: 50vh;
 }
 /* heading */
 .portfolio span:nth-of-type(1) {
@@ -38,3 +37,8 @@
   border-radius: 19px;
 }
 
+@media screen and (max-width: 480px) {
+  .portfolio {
+    height: 50vh;
+  }
+}

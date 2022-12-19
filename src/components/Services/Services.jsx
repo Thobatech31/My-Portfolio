@@ -25,12 +25,12 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-            I offer a awesome services for my client's, Development of latest   <br />user-interface features using ReactJs and
+        <span>
+            I offer a awesome services for my client's, Development of latest   <br />user-interface features using HTML, CSS, ReactJs, NextJs and
           built reusable components for   <br />use be it mobile, tablet and web applications
 
 
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -47,7 +47,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Frontend Developer"}
-            detail={"JavaScript, ReactJs, Redux, Html, Css, Bootstrap"}
+            detail={"JavaScript, ReactJs, Nextjs, Redux, Html, Css, Bootstrap"}
           />
         </motion.div>
         {/* second card */}
@@ -72,7 +72,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Visual Control Tools"}
             detail={
-              "Git, Github, Bitbucket"
+              "Git, Github, Bitbucket, Google Cloud Platform(GCP)"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
